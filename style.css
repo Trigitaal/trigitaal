@@ -219,8 +219,20 @@ Text Domain: trigitaal
     font-size: 16px; 
     font-weight: 300;
     line-height: 2.5em;
-    margin-left: 20px; 
-    list-style-image: url('assets/images/fa-arrow-right_16px.svg');
+    margin-left: 24px; 
+    position: relative;
+    list-style-type: none;
+    /* list-style-image: url('assets/images/fa-arrow-right_16px.svg'); */
+    }
+
+    li:before {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: -24px;
+        width: 16px;
+        height: 16px;
+        background-image: url('assets/images/fa-arrow-right_16px.svg');
     }
 
    a {
