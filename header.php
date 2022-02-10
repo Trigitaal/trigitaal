@@ -62,22 +62,6 @@
           );
 
         ?> 
-
-
-                 <!-- <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#advies" class="nav-link">Advies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#webdevelopment" class="nav-link">Webdevelopment</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#wie ben ik" class="nav-link">Wie ben ik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul> -->
             </div>             
         </div>
     </nav> 
