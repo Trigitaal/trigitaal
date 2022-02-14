@@ -63,21 +63,21 @@ if( is_page( 2 ) ) {
         <div class="row mt-5">
             <div class="col-lg-4 mb-5">
                 <div class="card">
-                    <!-- <div class="card-img">
-                        <img src="assets/images/boog-c.png" alt="" class="cases-card-img-top">
-                    </div> -->
+                  <div class="card-img">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/images/boog-c.png" alt="" class="cases-card-img-top">
+                  </div>                      
                     <div class="cases-card-body">
                        <div class="card-title"><h2>Ontwikkeling multi-sites</h2></div>
                         <div class="card-text"><p>Organisaties hebben vaak meer dan één website. Bijvoorbeeld scholengroepen met diverse locaties, grootschalige zorgorganisaties, multinationals met websites per land of taal of productleveranciers met meerdere merken. Of denk aan een intranet, klantenportaal, gebruikersomgeving of werkenbij-website. Zulke projecten zijn complex en omvangrijk. Door mijn ervaring met tientallen van deze projecten leid ik ze snel in goede banen.</p>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
             <div class="col-lg-4 mb-5">
                 <div class="card">
-                    <!-- <div class="card-img">
-                        <img src="assets/images/boog-c.png" alt="" class="cases-card-img-top">
-                    </div> -->
+                <div class="card-img">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/images/boog-c.png" alt="" class="cases-card-img-top">
+                  </div> 
                     <div class="cases-card-body">
                        <div class="card-title"><h2>Herstart van social intranet</h2></div>
                         <div class="card-text"><p>Een basisonderwijsgroep met 40 scholen liep vast in de verdere ontwikkeling van een social intranet. Dat kwam door een complexe software-update en veranderingen in personeel. Jammer, want de behoefte naar het intranet van het schoolpersoneel was groot, net als de inspanningen van de leverancier. Ik sprong bij door na enkele goede gesprekken een route uit te stippelen met concrete stappen. Die leidden tot een ‘social intranet in beweging’.</p>
@@ -87,11 +87,11 @@ if( is_page( 2 ) ) {
             </div>
             <div class="col-lg-4 mb-5">
                 <div class="card">
-                    <!-- <div class="card-img">
-                        <img src="assets/images/boog-c.png" alt="" class="cases-card-img-top">
-                    </div> -->
+                <div class="card-img">
+                    <img src="<?php echo get_theme_file_uri(); ?>/assets/images/boog-c.png" alt="" class="cases-card-img-top">
+                  </div> 
                     <div class="cases-card-body">
-                       <div class="card-title"><h2>Advies en regie mobiele webapplicatie</h2></div>
+                       <div class="card-title"><h2>Advies mobiele webapplicatie</h2></div>
                         <div class="card-text"><p>Zorgopleiders laagdrempelig en toegankelijk van de juiste informatie voorzien in een praktijksituatie. Dat was de wens van de opdrachtgever: een opleidingsinstituut in de zorg. Om tot een concept te komen voor de mobiele webapplicatie begeleidde ik een aantal design sprints. Kern van de oplossing waren een digitale vragenboom en ‘swipeable’ post-its voor een compacte en eenvoudige weergave op mobiel.</p>
                     </div>
                 </div>
