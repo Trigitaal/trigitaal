@@ -33,8 +33,8 @@
 </head>
 <body <?php body_class(); ?>>  
   
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5">
         <div class="container">
             <div class="navbar-brand">   
                 <a href="https://www.trigitaal.nl/" class="logo">
@@ -46,23 +46,21 @@
                 </button>
             <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
 
-        <?php
+            <?php
 
-          wp_nav_menu(
-            array(
-              'theme_location'    =>  'primary', // as registered in functions.php
-              'depth'             =>   1, // as we set up in our CSS
-              'container'         =>  'nav', // html wrapper of the menu ul
-              'container_class'   =>  'navbar-light', // wrapper class
-              'menu_class'        =>  'navbar-nav nav-item nav-link a navlink a:hover', // classes of the menu ul tag
-              'list_item_class'   =>  'nav-item',
-              'link_class'        =>  'nav-link a navlink a:hover',
-              'fallback_cb'       =>  false // if primary menu is not created, then show nothing
-            )
-          );
+                wp_nav_menu(
+                    array(
+                    'theme_location'    =>  'primary', // as registered in functions.php
+                    'depth'             =>   1, // as we set up in our CSS
+                    'container'         =>  'nav', // html wrapper of the menu ul
+                    'container_class'   =>  'navbar-light', // wrapper class
+                    'menu_class'        =>  'navbar-nav nav-item nav-link a navlink a:hover', // classes of the menu ul tag
+                    'list_item_class'   =>  'nav-item',
+                    'link_class'        =>  'nav-link a navlink a:hover',
+                    'fallback_cb'       =>  false // if primary menu is not created, then show nothing
+                    )
+                );
 
-        ?> 
-            </div>             
-        </div>
+            ?> 
+        </div>             
     </nav> 
-</header>

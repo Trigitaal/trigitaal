@@ -36,7 +36,7 @@ Text Domain: trigitaal
     font-family: "Ubuntu", Helvetica, sans-serif;
     color: var(--color-dark);
     font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 5rem;
     padding-top: 2rem;
@@ -109,6 +109,9 @@ Text Domain: trigitaal
     box-shadow: 0 2px 4px -4px var(--color-dark);
   }
 
+	.navbar {background: white;}
+
+
   .nav-item {
     color: var(--color-dark);
     font-family: "Ubuntu", Helvetica, sans-serif; 
@@ -131,8 +134,11 @@ Text Domain: trigitaal
         text-decoration: none;
       }  
 
-	.logo img{width: 190px;margin: 0;}
-	  
+	.logo img{width: 190px;margin: 0;}	  
+  
+  .content-offset{
+    margin-top: 175px;
+  }
 
   /* Block styles */
 
@@ -260,11 +266,27 @@ Text Domain: trigitaal
   }
 
   @media (min-width:768px){
+    h1 {
+      display: block;
+      font-family: "Ubuntu", Helvetica, sans-serif;
+      color: var(--color-dark);
+      font-weight: 600;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      margin-top: 5rem;
+      padding-top: 2rem;
+      background-image: url('assets/images/divider_black.png'); 
+      background-repeat: no-repeat;
+      background-position: top left; 
+      background-position-y: 0px;
+      background-position-x: 3px; 
+    }
 
     .navbar-nav > li{
       padding-left:20px;
       padding-right:20px;
     } 
+
     h4 {
       font-family: "Ubuntu", Helvetica, sans-serif;
       color: var(--color-dark);
@@ -279,11 +301,16 @@ Text Domain: trigitaal
   }
 
   @media (min-width:1200px){
+
+    .logo img{width: 190px;margin: 0;}
+    .logo.scrolled img{width: 100px!important;transition:.9s ease-out} 
+    .navbar.scrolled {height: 50px!important;}
+
     .brandbox h1 {
       font-size: 3rem;
       margin-left: 0;
       margin-bottom: 1rem;
-      margin-top: 4rem;
+      margin-top: 5rem;
       padding-top: 1rem;
       background-image: url('assets/images/divider_black.png'); 
       background-repeat: no-repeat;

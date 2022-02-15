@@ -20,7 +20,7 @@ get_header();
 <main>
     <section class="brandbox">
         <div class="container">  
-            <div class="row align-items-center">
+            <div class="row align-items-center mt-5">
                 <div class="col-md-5">
                     <?php $image = get_field('hero_image'); ?>
                     <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class="img-fluid">

@@ -1,5 +1,16 @@
-$(document).ready(function () {
-	
+(function ($) {
+  "use strict";
+
+  $(window).scroll(function(){
+    $('.navbar').toggleClass('scrolled', $(this).scrollTop()>200);
+    });
+  
+    $(window).scroll(function(){
+    $('.logo').toggleClass('scrolled', $(this).scrollTop()>200);
+    
+    });
+		
+
 	// Collapse Navbar
 	var navbarCollapse = function() {
 		if ($("header").offset().top > 50) {
@@ -21,10 +32,6 @@ $(document).ready(function () {
 			$(this).addClass('in');
 		});
 	}
-
-(function ($) {
-  "use strict";
-
   // Submenu dropdown toggler
 
   if ($(".main-menu li.menu-item-has-children ul").length) {
@@ -48,6 +55,7 @@ $(document).ready(function () {
     });
   }
 
+  
   // mobile nav hide / show
   if ($(".mobile-menu").length) {
     var mobileMenuContent = $("#top-navigation .navigation").html();

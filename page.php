@@ -33,7 +33,7 @@ get_header();
             }
             ?>
             <section>   
-            <div class="container">
+            <div class="container content-offset">
               <div class="col-md-8 offset-md-2 mt-1 mb-1">
                 <div>        
                   <h1><?php the_title();?></h1>
