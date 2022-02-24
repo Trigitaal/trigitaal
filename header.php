@@ -35,8 +35,8 @@
   
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top mb-5">
-        <div class="container">
-            <div class="navbar-brand">   
+    <div class="container">
+    <div class="navbar-brand">   
                 <a href="https://www.trigitaal.nl/" class="logo">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/images/logo-trigitaal.svg" alt="logo">
                 </a>

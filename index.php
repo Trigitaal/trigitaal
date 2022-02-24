@@ -18,9 +18,9 @@ get_header();
 ?>
 
 <section class="blog block-background-grey pt-5 pb-5">
-    <div class="container">
-        <h3>Blog</h3>
-        <div class="row mt-5">
+<div class="container">
+<h3>Blog</h3>
+<div class="row mt-5">
 
             <?php
                 // are there any posts in the DB?

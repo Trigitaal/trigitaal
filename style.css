@@ -13,298 +13,299 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: trigitaal
 */
 
-
 /* Variables */
 :root {
-    --color-dark: #42454a;
-    --color-lightblue: #0091DA;
-    --color-grey: #f5f5f5;
-  }
+  --color-dark: #42454a;
+  --color-lightblue: #0091da;
+  --color-grey: #f5f5f5;
+}
 
-  /* Main */
-  
-  p {  
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px; 
-    font-weight: 300;
-    line-height: 2em;
-    color: var(--color-dark);
-  }
+/* Main */
 
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2em;
+  color: var(--color-dark);
+}
+
+h1 {
+  display: block;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  color: var(--color-dark);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  background-image: url("assets/images/divider_black.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-position-y: 0px;
+  background-position-x: 3px;
+}
+
+.brandbox h1 {
+  display: block;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  color: var(--color-dark);
+  font-weight: 800;
+  font-size: 2.25rem;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  color: var(--color-lightblue);
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  color: var(--color-dark);
+  font-size: 2.25rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  background-image: url("assets/images/divider_black.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+h4 {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  color: var(--color-dark);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link .nav-item {
+  color: var(--color-dark);
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  align-items: left;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--color-lightblue);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px -4px var(--color-dark);
+}
+
+.navbar {
+  background: white;
+}
+
+.nav-item {
+  color: var(--color-dark);
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  align-items: left;
+}
+
+.nav-link a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: var(--color-lightblue);
+  text-decoration: none;
+}
+
+.logo img {
+  width: 190px;
+  margin: 0;
+}
+
+.content-offset {
+  margin-top: 175px;
+}
+
+/* Block styles */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.block-background-grey {
+  background-color: var(--color-grey);
+  padding-top: 3rem;
+}
+
+.block-background-white {
+  background-color: var(--color-white);
+}
+
+/* Card */
+.card {
+  padding: 0rem;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px var(--color-dark);
+  border: 0;
+}
+.card-top {
+  position: relative;
+}
+.card-img img {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.card-title {
+  padding-top: 1rem;
+}
+.card-body {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.card h4 {
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+/* Cases */
+
+.cases-card-body {
+  padding: 1rem;
+  margin-top: -100px;
+  margin-bottom: 1rem;
+}
+
+.cases-card-img-top {
+  width: initial;
+  height: initial;
+  margin-top: -26px;
+  float: right;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--color-dark);
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+
+.footer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+
+.content ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 2.5em;
+  margin-left: 24px;
+  position: relative;
+  list-style-type: none;
+}
+
+li:before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -24px;
+  width: 16px;
+  height: 16px;
+  background-image: url("assets/images/fa-arrow-right_16px.svg");
+}
+
+a {
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--color-lightblue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+/* Media queries*/
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
   h1 {
     display: block;
     font-family: "Ubuntu", Helvetica, sans-serif;
     color: var(--color-dark);
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
     margin-top: 5rem;
     padding-top: 2rem;
-    background-image: url('assets/images/divider_black.png'); 
+    background-image: url("assets/images/divider_black.png");
     background-repeat: no-repeat;
-    background-position: top left; 
+    background-position: top left;
     background-position-y: 0px;
-    background-position-x: 3px; 
-    
+    background-position-x: 3px;
   }
 
-  .brandbox h1 {
-    display: block;
-    font-family: "Ubuntu", Helvetica, sans-serif;
-    color: var(--color-dark);
-    font-weight: 800;
-    font-size: 2.25rem;
-    margin-left: 0;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-    padding-top: 2rem;
-    
-  }
-
-  h2 {
-    font-family: "Ubuntu", Helvetica, sans-serif;
-    color: var(--color-lightblue);
-    font-weight: 400;
-    font-size: 1.25rem;
-  }
-
-  h3 {
-    font-family: "Ubuntu", Helvetica, sans-serif;
-    color: var(--color-dark);
-    font-size: 2.25rem;
-    font-weight: 600;
-    padding-top: 1rem;
-    background-image: url('assets/images/divider_black.png'); 
-    background-repeat: no-repeat;
-    background-position: top left; 
+  .navbar-nav > li {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   h4 {
     font-family: "Ubuntu", Helvetica, sans-serif;
     color: var(--color-dark);
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 500;
     margin-top: 2rem;
-    margin-bottom:2rem; 
-  }  
-
-  /* Navbar */
-	.navbar-light .navbar-nav .nav-link .nav-item {
-    color: var(--color-dark);
-    font-family: "Ubuntu", Helvetica, sans-serif; 
-    font-size: 17px; 
-    font-weight: 500;
-    align-items: left;}
-
-  .navbar-light .navbar-toggler {
-    border: 0;
-    color: #fff;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 992px) {
   }
 
-  .navbar-light .navbar-nav .nav-link:hover{
-    color: var(--color-lightblue);  
-  } 
-
-  .navbar {
-    box-shadow: 0 2px 4px -4px var(--color-dark);
-  }
-
-	.navbar {background: white;}
-
-
-  .nav-item {
-    color: var(--color-dark);
-    font-family: "Ubuntu", Helvetica, sans-serif; 
-    font-size: 17px; 
-    font-weight: 500;
-    align-items: left;
-  }
-
-  .nav-link a {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px; 
-    font-weight: 600;
-    line-height: 32px;
-    color: var(--color-dark);
-    text-decoration: none;
-      }
-        
-    .nav-link a:hover {
-        color: var(--color-lightblue);
-        text-decoration: none;
-      }  
-
-	.logo img{width: 190px;margin: 0;}	  
-  
-  .content-offset{
-    margin-top: 175px;
-  }
-
-  /* Block styles */
-
-    .img-fluid {
-        max-width: 100%;
-        height: auto; 
+  @media (min-width: 1200px) {
+    .logo img {
+      width: 190px;
+      margin: 0;
     }
-
-  .block-background-grey {
-    background-color: var(--color-grey);
-    padding-top:3rem;
-  }
-
-  .block-background-white {
-    background-color: var(--color-white);
-  }
-  
-  /* Card */
-	.card {
-    padding:0rem; 
-    height: 100%; 
-    background-color: #fff;
-    border-radius: 0px; 
-    box-shadow: 0px 0px 1px var(--color-dark);
-    border: 0; 
-    
-  }
-	.card-top {
-    position: relative;
-  }
-	.card-img img{
-    border-radius: 0px 0px 0px 0px;
-  }
-  
-
-  .card-title {
-    padding-top:1rem;
-  }
-	.card-body {
-    padding:1rem;
-    margin-bottom: 1rem;
-  }
-  .card h4 {
-      font-size: 0.75rem;
-      font-weight: 300;
-      margin-bottom: 1rem;
-      margin-top: 2rem; 
-    }  
-    
-    /* Cases */
-
-    .cases-card-body {
-      padding:1rem;
-      margin-top:-100px;
-      margin-bottom: 1rem;
+    .logo.scrolled img {
+      width: 100px !important;
+      transition: 0.9s ease-out;
     }
-
-    .cases-card-img-top {
-      width: initial;
-      height: initial; 
-      margin-top: -26px;
-      float: right;  
+    .navbar.scrolled {
+      height: 50px !important;
     }
-
-
-
-	  /* Footer */
-
-	.footer {
-    background-color: var(--color-dark);
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px; 
-    font-weight: 400;
-    line-height: 28px;
-    color: #fff;
-  }
-
-  .footer p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px; 
-    font-weight: 400;
-    line-height: 32px;
-    color: #fff;
-  }
-
-  .content ul li{
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px; 
-    font-weight: 300;
-    line-height: 2.5em;
-    margin-left: 24px; 
-    position: relative;
-    list-style-type: none;
-    }
-
-    li:before {
-        content: "";
-        position: absolute;
-        top: 12px;
-        left: -24px;
-        width: 16px;
-        height: 16px;
-        background-image: url('assets/images/fa-arrow-right_16px.svg');
-    }
-
-   a {
-    font-family: "Ubuntu", Helvetica, sans-serif;
-    font-size: 16px; 
-    font-weight: 400;
-    line-height: 32px;
-    color: var(--color-lightblue);
-    text-decoration: none;
-  }
-	
-  a:hover {
-    color: var(--color-dark);
-    text-decoration: none;
-  }  
-
-    /* Media queries*/
-
-  @media (min-width:576px){
-    
-    
-  }
-
-  @media (min-width:768px){
-    h1 {
-      display: block;
-      font-family: "Ubuntu", Helvetica, sans-serif;
-      color: var(--color-dark);
-      font-weight: 600;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      margin-top: 5rem;
-      padding-top: 2rem;
-      background-image: url('assets/images/divider_black.png'); 
-      background-repeat: no-repeat;
-      background-position: top left; 
-      background-position-y: 0px;
-      background-position-x: 3px; 
-    }
-
-    .navbar-nav > li{
-      padding-left:20px;
-      padding-right:20px;
-    } 
-
-    h4 {
-      font-family: "Ubuntu", Helvetica, sans-serif;
-      color: var(--color-dark);
-      font-size: 2.5rem;
-      font-weight: 500;
-      margin-top: 2rem; 
-      margin-bottom: 2rem;
-  }
-  @media (min-width:992px){
-    
-      
-  }
-
-  @media (min-width:1200px){
-
-    .logo img{width: 190px;margin: 0;}
-    .logo.scrolled img{width: 100px!important;transition:.9s ease-out} 
-    .navbar.scrolled {height: 50px!important;}
 
     .brandbox h1 {
       font-size: 3rem;
@@ -312,26 +313,21 @@ Text Domain: trigitaal
       margin-bottom: 1rem;
       margin-top: 5rem;
       padding-top: 1rem;
-      background-image: url('assets/images/divider_black.png'); 
+      background-image: url("assets/images/divider_black.png");
       background-repeat: no-repeat;
-      background-position: top left; 
+      background-position: top left;
       background-position-y: 0px;
-      background-position-x: 10px; 
-    }  
-    
+      background-position-x: 10px;
+    }
   }
 
-  @media (min-width:1400px){
-    .navbar-nav > li{
-      padding-left:40px;
+  @media (min-width: 1400px) {
+    .navbar-nav > li {
+      padding-left: 40px;
       padding-right: 40px;
     }
-  
-    
   }
-  
-  @media (min-width:1600px){
-   
-  
-    
+
+  @media (min-width: 1600px) {
   }
+}

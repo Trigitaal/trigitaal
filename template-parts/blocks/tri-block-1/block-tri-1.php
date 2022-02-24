@@ -12,7 +12,7 @@ if ($background_color_one)
 ?>
     <section class="one-column <?php echo $background_style; ?>"> 
         <div class="container">
-            <div class="col-md-8 offset-md-2 pt-2 mt-1 mb-3"> 
+            <div class="col-md-8 offset-md-2 pt-2 mt-1 mb-3 scroll-reveal"> 
                  <div class="row"> 
                      <?php if( !empty( $title_one ) ) 
                         echo '<h2>'.$title_one. '</h2>'; ?>

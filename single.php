@@ -33,9 +33,9 @@ get_header();
             }
             ?>
                 <section class="one-column">
-                    <div class="container">  
+              <div class="container">  
                         <div class="row">
-                            <div class="col-md-8 offset-md-2 mt-1 mb-5">
+              <div class="col-md-8 offset-md-2 mt-1 mb-5">
                                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                     <h1><?php the_title();?></h1>
                                     <p><?php the_content();?></p>

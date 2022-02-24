@@ -1,6 +1,6 @@
 <footer class="footer">   
     <div class="container">
-        <div class="row">
+        <div class="row scroll-reveal">
             <div class="col-md-4 mt-5">
                 <img src="<?php echo get_theme_file_uri(); ?>/assets/images/logo-wit.svg" alt="logo" width="170">
             </div>

@@ -55,7 +55,16 @@ wp_enqueue_style( 'trigitaal', get_stylesheet_uri(), array( 'bootstrap' ), '1.0'
 
 wp_enqueue_script( 'bootstrap', get_theme_file_uri( 'assets/js/bootstrap.min.js' ), array(), 'v5.1.1', true );
 
+wp_enqueue_script(
+	'prefix-scrollreveal',
+	get_theme_file_uri() . '/node_modules/scrollreveal/dist/scrollreveal.min.js',
+	array(),
+	'1.0.0',
+	true
+);
+
 wp_enqueue_script( 'trigitaal-js', get_theme_file_uri( 'assets/js/main-script.js' ), array( 'jquery', 'jquery-ui-core', 'jquery-ui-selectmenu' ), '1.0', true );
+
 
 
 if( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
